@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:fitsSystemWindows="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:fitsSystemWindows="true"
+            android:gravity="center_horizontal"
+            android:paddingBottom="1dp">
+
+
+            <ImageView
+                android:id="@+id/btn_retun_imageView"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonchange"
+                android:visibility="visible"
+
+                app:srcCompat="@drawable/abc_vector_test" />
+            <Button
+                android:id="@+id/btn_retun"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="回主畫面"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:id="@+id/lera_network"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="right">
+
+                        <ImageView
+                            android:id="@+id/testwifi_imageView"
+                            android:layout_width="70dp"
+
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@mipmap/connectionest_adaptive_fore" />
+
+                        <Button
+                            android:id="@+id/testwifi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="網路連線測試"
+                            android:textSize="30sp"
+                            app:srcCompat="@drawable/ic_launchermic" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right">
+
+                        <ImageView
+                            android:id="@+id/restartwifi_imageView"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@mipmap/ic_wifi_adaptive_fore" />
+
+                        <Button
+                            android:id="@+id/restartwifi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:background="@drawable/buttonchange"
+                            android:text="重啟平板網路連線"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right">
+
+                        <ImageView
+                            android:id="@+id/imageView4_testDB"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@mipmap/ic_unlockdb" />
+
+                        <Button
+                            android:id="@+id/testDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="檢測資料庫"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right">
+
+                        <ImageView
+                            android:id="@+id/imageView6_btn_line"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@mipmap/ic_sos_adaptive_fore" />
+
+                        <Button
+                            android:id="@+id/btn_line"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="操作問題緊急求救"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lera_setting"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right">
+
+                        <ImageView
+                            android:id="@+id/button4_imageView"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@mipmap/ic_machinebroken" />
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="設定機台故障與待機"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right">
+
+                        <ImageView
+                            android:id="@+id/btn_edit_imageView"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@mipmap/ic_updatequjan" />
+
+                        <Button
+                            android:id="@+id/btn_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="修改製程完成數量"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right">
+
+
+                        <ImageView
+                            android:id="@+id/btn_cow_imageView"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@mipmap/ic_cowork" />
+
+                        <Button
+                            android:id="@+id/btn_cow"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="掃描外檢協調作業人員"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lera_search"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:id="@+id/Inquire_imageView"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@android:drawable/ic_menu_search" />
+
+                        <Button
+                            android:id="@+id/Inquire"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="本流程單製程查詢"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:id="@+id/machine_imageView"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@android:drawable/ic_menu_search" />
+
+                        <Button
+                            android:id="@+id/machine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="使用中機台查詢"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:id="@+id/Inquire20_imageView"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@android:drawable/ic_menu_search" />
+
+                        <Button
+                            android:id="@+id/Inquire20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="本流程單檢驗查詢"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:id="@+id/Inquire01_imageView83"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@android:drawable/ic_menu_search" />
+
+                        <Button
+                            android:id="@+id/Inquire01"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="未完成流程單"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:id="@+id/Inquire1_imageView"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/buttonchange"
+                            android:visibility="visible"
+                            app:srcCompat="@android:drawable/ic_menu_search" />
+
+                        <Button
+                            android:id="@+id/Inquire1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/buttonchange"
+                            android:text="我的生產查詢"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

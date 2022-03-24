@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Data/firstohm_produce_kotlin0323/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/Data/firstohm_produce_kotlin0323/app/src/main/res/layout/custom_layout_info.xml" value="0.3145833333333333" />
+        <entry key="..\:/Data/firstohm_produce_kotlin0323/app/src/main/res/layout/custom_layout_main_button.xml" value="0.3145833333333333" />
+        <entry key="..\:/Data/firstohm_produce_kotlin0323/app/src/main/res/layout/custom_layout_quant_color.xml" value="0.5" />
+        <entry key="..\:/Data/firstohm_produce_kotlin0323/app/src/main/res/layout/custom_layout_quant_input.xml" value="0.24635416666666668" />
+        <entry key="..\:/Data/firstohm_produce_kotlin0323/app/src/main/res/layout/custom_layout_speed_input.xml" value="0.3145833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
